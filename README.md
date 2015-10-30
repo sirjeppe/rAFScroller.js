@@ -23,9 +23,10 @@ var config = {
     fallback: function(targetYPos) {
         throw 'No fallback method registered';
     }
-    // Fallback function if required browser features is not available in the
-    // current browser. The only argument passed to the fallback is the
-    // calculated target Y position that the page should have scrolled to.
+    // Fallback function if required browser features are not available in the
+    // current browser. The only argument passed to this function is the
+    // calculated vertical position that the page should have scrolled to
+    // (with possible offset applied).
 
 };
 
